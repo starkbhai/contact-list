@@ -1,5 +1,5 @@
 import React, { useState } from 'react' 
-import picture from '.././photos/Rami.png'
+
 const Corediv = ({name,location,img,age,data,setValue,bigvalue}) => {
     const [hide,unhide]=useState(1);
 
