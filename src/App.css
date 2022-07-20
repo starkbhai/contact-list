@@ -1,0 +1,68 @@
+.App{
+  display: flex;
+}
+
+.box{
+  margin-top: 3rem;
+  margin-left: 3rem;
+  box-shadow: 0px 5px 27px -1px rgba(0,0,0,0.75);
+  width: 24rem;
+  height: 8rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+
+.img-box img{
+  width: 7rem;
+  height: 7rem;
+  object-fit: cover;
+}
+
+.details{
+  /* background-color: yellow; */
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.details  h4,h3 {
+  margin: 10px;
+}
+.details  h4,h3 ,h5 {
+  margin: 6px;
+}
+
+.hide{
+   display:none;
+}
+
+.Big-card{
+  box-shadow: 0px 5px 27px 3px rgba(0,0,0,0.75);
+  width: 40rem;
+  height: 33rem;
+  margin-top: 5rem;
+  margin-left: 10rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  position: fixed;
+  
+
+}
+
+.Big-card img{
+  width: 28rem;
+  height: 20rem;
+  object-fit:contain;
+}
+.heading{
+
+ 
+  position: fixed;
+  left: 48rem;
+ 
+}
